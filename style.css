@@ -1,0 +1,38 @@
+html {
+  margin: 120px;
+  margin-top: 0;
+  padding: auto;
+}
+body {
+  font: verdana, sans-serif;
+  color: #31363f;
+}
+p {
+  margin-top: 0;
+  text-align: justify;
+  text-indent: 1em;
+}
+h1 {
+  font: italic normal 1.8rem verdana, sans-serif;
+  letter-spacing: 1px;
+  color: #76abae;
+}
+h2 {
+  font: italic normal 1.4rem verdana, sans-serif;
+  letter-spacing: 1px;
+  color: #76abae;
+}
+h3 {
+  font: italic normal 1.2rem verdana, sans-serif;
+  letter-spacing: 1px;
+  color: #76abae;
+}
+abbr {
+  font-style: small-caps;
+}
+.main {
+  line-height: 1.5;
+}
+.summary {
+  text-align: center;
+}
