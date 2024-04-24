@@ -2,6 +2,8 @@ html {
   margin: 120px;
   margin-top: 0;
   padding: auto;
+  width: 80%;
+  max-width: 1280px;
 }
 body {
   font: verdana, sans-serif;
@@ -35,4 +37,58 @@ abbr {
 }
 .summary {
   text-align: center;
+}
+.intro {
+  height: 550px;
+}
+#design-archives {
+  display: none;
+}
+header {
+  background-color: #000;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 1em;
+  h1 {
+    margin-left: 20px;
+    color: #fff;
+  }
+  h2 {
+    margin-right: 20px;
+    color: #fff;
+  }
+}
+aside {
+  .design-selection {
+    text-align: center;
+
+    position: absolute;
+    padding: 2%;
+    left: 62%;
+    top: 560px;
+    ul {
+      list-style-type: none;
+    }
+    li {
+      padding: 0.5em;
+    }
+  }
+}
+footer {
+  background-color: #000;
+  margin-top: 4%;
+  a {
+    color: #fff;
+    border: solid 2px;
+    border-spacing: 0.5em;
+  }
+}
+.page-wrapper {
+  position: relative;
+}
+.explanation {
+  width: 60%;
+  margin-right: 35%;
+  border-right: #1f295c solid 1px;
+  padding: 2%;
 }
