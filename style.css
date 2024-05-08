@@ -77,7 +77,12 @@ aside {
 footer {
   background-color: #000;
   margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
   a {
+    flex: 1;
+    text-align: center;
     color: #fff;
     border: solid 2px;
     border-spacing: 0.5em;
@@ -91,4 +96,44 @@ footer {
   margin-right: 35%;
   border-right: #1f295c solid 1px;
   padding: 2%;
+}
+a {
+  font-weight: bold;
+}
+a:hover {
+  color: darkblue;
+}
+a:visited {
+  font-weight: normal;
+}
+
+.explanation {
+  p:nth-child(2):first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+}
+
+.design-selection {
+  li {
+    border-top: 1px solid;
+  }
+  li:last-child {
+    border-bottom: 1px solid;
+  }
+}
+
+.benefits {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  border-top: 1px solid black; /* Linha no topo */
+  border-bottom: 1px solid black; /* Linha na parte inferior */
+  gap: 20px;
+  p {
+    flex: 0 0 70%; /* Texto ocupando 70% da largura */
+  }
+  h3 {
+    flex: 0 0 30%; /* Título ocupando 30% da largura */
+    text-align: right; /* Alinhamento à direita */
+  }
 }
